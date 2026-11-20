@@ -11,6 +11,10 @@ Small projects I built while learning front-end development, by following video 
 | [`responsive-form`](responsive-form) | CSS Flexbox: a form that wraps and resizes with `flex-wrap`, `flex-basis` and `flex-grow` |
 | [`vue-counter`](vue-counter) | Vue 3 basics from a CDN: `data`, `methods`, `@click`, `v-if` versus `v-show` |
 
+## Live pages
+
+Open the projects here: https://saleh-nabil77.github.io/html-css-js-projects/
+
 ## Notes
 
 - These are learning projects, so the design ideas come from the tutorials.

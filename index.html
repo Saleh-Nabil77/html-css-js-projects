@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saleh Nabil - Front-End Practice Projects</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: sans-serif; background: #003; color: #fff; padding: 40px 20px; }
+        .wrap { max-width: 800px; margin: 0 auto; }
+        h1 { font-size: 28px; margin-bottom: 8px; }
+        p.intro { color: #b8c4ff; margin-bottom: 30px; line-height: 1.5; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+        a.card { display: block; background: #14a; color: #fff; text-decoration: none; padding: 18px; border-radius: 8px; transition: transform 0.2s; }
+        a.card:hover { transform: translateY(-4px); background: #1a5fc4; }
+        a.card h2 { font-size: 18px; margin-bottom: 6px; }
+        a.card span { font-size: 14px; color: #d6defa; }
+        footer { margin-top: 30px; font-size: 14px; color: #b8c4ff; }
+        footer a { color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1>Front-End Practice Projects</h1>
+        <p class="intro">Small projects I built while learning HTML, CSS and JavaScript from video tutorials. Click a card to open the live page.</p>
+        <div class="grid">
+            <a class="card" href="planets-menu/"><h2>Planets Menu</h2><span>CSS hover effects</span></a>
+            <a class="card" href="parallax-scrolling-site/"><h2>Parallax Scrolling Site</h2><span>JavaScript scroll animation</span></a>
+            <a class="card" href="pepsi-landing-page/"><h2>Landing Page</h2><span>Flexbox, animations, responsive design</span></a>
+            <a class="card" href="countdown-timer/"><h2>Countdown Timer</h2><span>JavaScript dates and timers</span></a>
+            <a class="card" href="responsive-form/"><h2>Responsive Form</h2><span>CSS Flexbox</span></a>
+            <a class="card" href="vue-counter/"><h2>Vue Counter</h2><span>Vue 3 basics</span></a>
+        </div>
+        <footer>Code: <a href="https://github.com/Saleh-Nabil77/html-css-js-projects">github.com/Saleh-Nabil77/html-css-js-projects</a></footer>
+    </div>
+</body>
+</html>
