@@ -6,10 +6,12 @@ Small projects I built while learning front-end development, by following video 
 |---|---|
 | [`planets-menu`](planets-menu) | CSS hover effects: `::before` / `::after`, `transform`, `transition`, `attr()` |
 | [`parallax-scrolling-site`](parallax-scrolling-site) | JavaScript scroll events (`window.onscroll`) moving layered images at different speeds |
+| [`pepsi-landing-page`](pepsi-landing-page) | A responsive landing page: Flexbox, CSS animations (`@keyframes`), media queries, Font Awesome icons |
 | [`vue-counter`](vue-counter) | Vue 3 basics from a CDN: `data`, `methods`, `@click`, `v-if` versus `v-show` |
 
 ## Notes
 
 - These are learning projects, so the design ideas come from the tutorials.
+- The Pepsi page is a practice exercise only. The name, logo and images belong to their owners, and it is not affiliated with or endorsed by them.
 - `vue-counter` needs an internet connection (it loads Vue from a CDN).
 - My own full-stack project (React, Node and Express) is here: [reviews-app](https://github.com/Saleh-Nabil77/reviews-app)
